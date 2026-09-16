@@ -16,6 +16,17 @@ Target pengguna adalah siapa saja yang berminat menghilangkan beban pikiran (dec
 - Husainah Syamsiah - 2506589036
 - Clement Kevin Tanadi - 2506632892
 
+---
+
+## Tautan
+#### PWS
+https://clement-kevin-minlifecommunity.pws.cs.ui.ac.id 
+
+#### Figma
+https://www.figma.com/design/a7E8oOdT7QY1mf0E1UdtKS/Untitled?node-id=0-1&t=KeRtCcQylg4S9L7c-1 
+
+---
+
 ## Daftar Modul
 
 #### Sistem users, halaman user profile
@@ -24,7 +35,7 @@ Setiap user akan disimpan di database dengan data seperti nama, link sosial medi
 Halaman profile akan memuat info-info publik user dan posting. Sebuah penanda tambahan muncul jika user tersebut adalah moderator.
 
 #### Badges (submodul)
-Submodule untuk users. Badges didapatkan dari upvote dan weekly challenge.
+Submodule untuk users. Badges didapatkan dari setiap penyelesaian weekly challenge.
 
 #### Posts
 Posts menjadi halaman utama dari website ini.
@@ -66,11 +77,16 @@ User dapat submit challenge dengan mengirim foto bukti dan penjelasan dengan tex
 
 Notable libraries: `django-ckeditor` untuk textboxes
 
----
+## Peran user
+User terbagi menjadi dua kategori:
 
-## Tautan
-#### PWS
-https://clement-kevin-minlifecommunity.pws.cs.ui.ac.id 
+#### User biasa
+User dapat mendaftarkan akunnya dan berpartisipasi dalam komunitas melalui berbagai cara:
 
-#### Figma
-https://www.figma.com/design/a7E8oOdT7QY1mf0E1UdtKS/Untitled?node-id=0-1&t=KeRtCcQylg4S9L7c-1 
+- Membuat post
+- Memberikan komentar
+- Memberikan upvote atau downvote untuk post atau komentar
+- Melakukan submission weekly challenge
+
+#### Moderator
+Moderator adalah user yang dipercayai untuk mengatur komunitas, seperti menghapus post dan komentar yang ofensif dan membuat topik weekly challenge. Moderator dapat berpartisipasi dalam komunitas seperti user lain.
